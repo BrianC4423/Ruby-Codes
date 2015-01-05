@@ -4,7 +4,7 @@ while true
   puts 'HUH! SPEAK UP, SONNY!'
 
  if input == input.upcase
- 	puts 'not since 194' + (rand(10)).to_s + ' sonny.'
+ 	puts 'not since ' + (1930 + (rand(19))).to_s + ' sonny.'
  elsif input == 'bye'
  		puts 'I\'m not that hungry.'
 	break
